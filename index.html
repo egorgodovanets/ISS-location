@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watching ISS</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="my-app">
+        <div id="first-row">
+            <div id="location">
+                <p id="ISS-str">ISS is now located:</p> 
+                <div id="coordinates">
+                    <p id="latitude"></p>
+                    <p id="longitude"></p>
+                </div>
+            </div>
+            <div id="map">
+            </div>
+        </div>
+        <div id="second-row">
+            <div id="data-time">
+            </div>
+            <div id="people">
+                <div id="who-at-ISS">
+                </div>
+                <div id="amount">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxio82BhhnxqOBgED2OUJeqtov0BRujx8&callback=initMap&v=weekly"
+defer
+></script>
+
+<script src="index.js"></script>   
+</body>
+</html>

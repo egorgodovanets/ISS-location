@@ -1,0 +1,87 @@
+#my-app {
+    width: 1000px;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#first-row {
+    width: 700px;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#second-row {
+    width: 290px;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#location {
+    width: 650px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ISS-str {
+    font: italic small-caps bold 22px cursive;
+    margin-bottom: 0px;
+}
+
+#coordinates {
+    margin-top: 0px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    font: italic small-caps bold 20px cursive;
+}
+
+#map {
+    width: 650px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#data-time {
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+    font: italic small-caps bold 17px cursive;
+    text-align: center;
+}
+
+#people {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#who-at-ISS {
+    width: 250px;
+    height: 400px;
+    border: 1px solid black;
+    text-align: center;
+    font: italic small-caps bold 22px cursive;
+}
+
+#amount {
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    font: italic small-caps bold 16px cursive;
+    text-align: center;
+}
